@@ -1,0 +1,62 @@
+@mixin container{
+    width: 100%;
+    padding-right:0;
+    padding-left:0;
+    margin: 0 auto;
+    @include mobile{
+        width: 100%;
+    }
+    @include tablet{
+        max-width: 100%;
+    }
+    @include desktop{
+        max-width: 1200px;
+    }
+    @include desktop_lg {
+        max-width: 1920px;
+    }
+}
+@mixin container-fluid{
+    width: 100%;
+    padding-right:0;
+    padding-left:0;
+    margin: 0 auto;
+    @include mobile{
+        width: 100%;
+    }
+    @include tablet{
+        max-width: 100%;
+    }
+    @include desktop{
+        max-width: 100%;
+    }
+    @include desktop_lg {
+        max-width: 1920px;
+    }
+}
+@mixin row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:0px;
+    margin-left:0px;
+}
+
+@mixin col{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right:0;
+    padding-left:0;
+}
+
+@mixin btn_default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+    transition: all .3s ease-in-out;
+    &:hover{
+        transition: all .3s ease-in-out;
+    }
+}
