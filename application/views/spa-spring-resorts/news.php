@@ -119,3 +119,13 @@
 </div>
 
 <?php $this->view("spa-spring-resorts/layouts/footer.php");?>
+
+<script>
+    $(function(){
+        $(function(){
+            $(".gotooreder").click(function(){
+                $(window).attr('location','https://wenpin.ezhotel.com.tw/');
+            })
+        })
+    })
+</script>

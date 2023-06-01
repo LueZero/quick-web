@@ -1,4 +1,7 @@
-<?php $this->view("spa-spring-resorts/layouts/header.php");?>
+
+<?php $this->view("spa-spring-resorts/layouts/header.php"); ?>
+
+<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH .'/spa-spring-resort/scss/pgwslideshow.css'; ?>">
 
 <div class="contentGroup">
     <div class="main_Content" id="main_Content">
@@ -201,8 +204,8 @@
                                     <div class="tab-pane fade" id="standardRoom" role="tabpanel" aria-labelledby="standardRoom-tab">
                                         <div class="htmleaf-content bgcolor-3">
                                             <ul class="pgwSlideshow">
-                                                <li><img src="<?php echo PUBLIC_PATH . '/spa-spring-resort/images/pic_hotel_standardRoom_01.jpg';?>" alt="北投水都溫泉會館 家庭4人房"></li>
-                                                <li><img src="<?php echo PUBLIC_PATH . '/spa-spring-resort/images/pic_hotel_standardRoom_02.jpg';?>" alt="北投水都溫泉會館 家庭4人房"></li>
+                                                <li><img src="<?php echo PUBLIC_PATH . '/spa-spring-resort/images/pic_hotel_standardRoom_01.jpg'; ?>" alt="北投水都溫泉會館 家庭4人房"></li>
+                                                <li><img src="<?php echo PUBLIC_PATH . '/spa-spring-resort/images/pic_hotel_standardRoom_02.jpg'; ?>" alt="北投水都溫泉會館 家庭4人房"></li>
                                             </ul>
                                             <div class="sub_group">
                                                 <div class="sub_txt_content">
@@ -274,4 +277,14 @@
     </div>
 </div>
 
-<?php $this->view("spa-spring-resorts/layouts/footer.php");?>
+<?php $this->view("spa-spring-resorts/layouts/footer.php"); ?>
+
+<script type="text/javascript" src="<?php echo PUBLIC_PATH .'/spa-spring-resort/js/pgwslideshow.min.js'; ?>"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.pgwSlideshow').pgwSlideshow({
+            transitionEffect: 'fading',
+            autoSlide: true
+        });
+    });
+</script>
