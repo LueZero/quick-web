@@ -82,13 +82,13 @@
                                 <div class="mobile_header bd-example">
                                     <nav class="navbar navbar-light bg-light fixed-top">
                                         <div class="container-fluid">
-                                            <a class="navbar-brand icon_logo_mobile" href="/">
+                                            <a class="navbar-brand icon_logo_mobile" href="<?php echo base_url(); ?>">
                                             </a>
                                         </div>
                                     </nav>
                                 </div>
                                 <div class="navGroup" id="NavGroup">
-                                    <a class="logo_pc" href="/">
+                                    <a class="logo_pc" href="<?php echo base_url(); ?>">
                                         <img src="<?php echo PUBLIC_PATH . '/spa-spring-resort/images/logo_pc.png'; ?>" alt="台北水都北投溫泉會館" title="台北水都北投溫泉會館">
                                     </a>
                                     <ul class="login_group">
@@ -108,7 +108,7 @@
                                             <a href="https://www.facebook.com/spaspring" target="_blank">線上訂房</a>
                                         </li>
                                         <li>
-                                            <a class="icon_about" href="#TrafficGroup">聯絡我們</a>
+                                            <a class="icon_about" href="<?php echo base_url('#TrafficGroup'); ?>">聯絡我們</a>
                                         </li>
 
                                     </ul>

@@ -53,9 +53,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['backstage/login']['get'] = 'Backstage/login';
+$route['backstage/login']['post'] = 'Api/Manufacturers/Login/login';
+$route['backstage/logout']['get'] = 'Api/Manufacturers/Login/logout';
+
 $route['backstage'] = 'Backstage/index';
 
-if ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
+if ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw') {
     $route['default_controller'] = 'SpaSpringResort/index';
     $route['hotel'] = 'SpaSpringResort/hotel';
     $route['facility'] = 'SpaSpringResort/facility';

@@ -401,7 +401,7 @@
                                             <li class="nav-item">
                                                 <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
                                                     <!-- <img src="<?php echo base_url("public/kiaalap-master/img/product/pro4.jpg");?>" alt="" /> -->
-                                                    <span class="admin-name">TEST</span>
+                                                    <span class="admin-name"><?php echo $manufacturer->name; ?></span>
                                                     <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
                                                 </a>
                                                 <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">

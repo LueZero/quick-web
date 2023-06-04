@@ -1,4 +1,3 @@
-<?php $this->view("backstage/layouts/header.php");?>
 <div class="m-3">
     <div class="analytics-sparkle-area">
         <div class="container-fluid">
@@ -73,4 +72,3 @@
         </div>
     </div>
 </div>
-<?php $this->view("backstage/layouts/footer.php");?>
