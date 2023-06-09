@@ -36,7 +36,7 @@
                 <div class="col">
                     <ul class="mobile_footer_group">
                         <li>
-                            <a href="<?php echo base_url('about'); ?>">
+                            <a href="<?php echo base_url('#aboutGroup'); ?>">
                                 <span class="icon_mobile_footer_index"></span>
                                 關於我們
                             </a>

@@ -43,70 +43,7 @@
                                                 <a class="btn_news_list_more" href="<?php echo base_url('news/1'); ?>">看更多</a>
                                             </div>
                                         </div>
-                                    </div>
-
-                                    <!-- <div class="news_content_list_group">
-                                                    <p class="pic_news_content_list"></p>
-                                                    <ul class="news_content_list">
-                                                        <li>
-                                                            <span class="news_time">2023.01.01</span>
-                                                            <div class="news_list">
-                                                                限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案
-                                                            </div>
-                                                            <a class="btn_news_list_more" href="javascript:;">看更多</a>
-                                                        </li>
-                                                        <li>
-                                                            <span class="news_time">2023.01.01</span>
-                                                            <div class="news_list">
-                                                                限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案
-                                                            </div>
-                                                            <a class="btn_news_list_more" href="javascript:;">看更多</a>
-                                                        </li>
-                                                        <li>
-                                                            <span class="news_time">2023.01.01</span>
-                                                            <div class="news_list">
-                                                                限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案
-                                                            </div>
-                                                            <a class="btn_news_list_more" href="javascript:;">看更多</a>
-                                                        </li>
-                                                        <li>
-                                                            <span class="news_time">2023.01.01</span>
-                                                            <div class="news_list">
-                                                                限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案
-                                                            </div>
-                                                            <a class="btn_news_list_more" href="javascript:;">看更多</a>
-                                                        </li>
-                                                        <li>
-                                                            <span class="news_time">2023.01.01</span>
-                                                            <div class="news_list">
-                                                                限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案 限定優惠雙享 高鐵聯票專案
-                                                            </div>
-                                                            <a class="btn_news_list_more" href="javascript:;">看更多</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="pageNavigation_group">
-                                                    <nav aria-label="Page navigation example">
-                                                        <ul class="pagination">
-                                                          <li class="page-item">
-                                                            <a class="page-link" href="#" aria-label="Previous">
-                                                              <span aria-hidden="true">&laquo;</span>
-                                                            </a>
-                                                          </li>
-                                                          <li class="page-item"><a class="page-link active" href="#">1</a></li>
-                                                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                          <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                          <li class="page-item">
-                                                            <a class="page-link" href="#" aria-label="Next">
-                                                              <span aria-hidden="true">&raquo;</span>
-                                                            </a>
-                                                          </li>
-                                                        </ul>
-                                                      </nav>
-                                                      <div class="pagination_tip_group">
-                                                        <span>第1頁</span> / <span>共19頁</span>
-                                                      </div>
-                                                </div> -->
+                                    </div>                            
                                 </div>
                             </div>
                         </div>
@@ -124,7 +61,7 @@
     $(function(){
         $(function(){
             $(".gotooreder").click(function(){
-                $(window).attr('location','https://wenpin.ezhotel.com.tw/');
+                $(window).attr('location', 'https://wenpin.ezhotel.com.tw/');
             })
         })
     })

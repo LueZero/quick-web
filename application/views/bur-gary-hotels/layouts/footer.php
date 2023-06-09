@@ -36,25 +36,25 @@
                 <div class="col">
                     <ul class="mobile_footer_group">
                         <li>
-                            <a href="index.html#aboutGroup">
+                            <a href="<?php echo base_url('#aboutGroup'); ?>">
                                 <span class="icon_mobile_footer_index"></span>
                                 關於我們
                             </a>
                         </li>
                         <li>
-                            <a href="hotel.html">
+                            <a href="<?php echo base_url('hotel'); ?>">
                                 <span class="icon_mobile_footer_life"></span>
                                 精選房型
                             </a>
                         </li>
                         <li>
-                            <a href="news.html">
+                            <a href="<?php echo base_url('news'); ?>">
                                 <span class="icon_mobile_footer_service"></span>
                                 最新消息
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#FacilityGroup">
+                            <a href="<?php echo base_url('#FacilityGroup'); ?>">
                                 <span class="icon_mobile_footer_recruitment"></span>
                                 服務設施
                             </a>

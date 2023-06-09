@@ -12,8 +12,18 @@ class BurGaryHotel extends My_Controller
         $this->load->view('bur-gary-hotels/index');
     }
 
-    public function about()
+    public function hotel()
     {
-       echo "burgaryhotel 建構中...";
+        $this->load->view('bur-gary-hotels/hotel');
+    }
+
+    public function news()
+    {
+        $this->load->view('bur-gary-hotels/news');
+    }
+
+    public function newsDetail($id)
+    {
+        $this->load->view('bur-gary-hotels/newsdetail');
     }
 }

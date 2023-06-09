@@ -93,7 +93,7 @@
                                     </a>
                                     <ul class="login_group">
                                         <li>
-                                            <a class="icon_index" href="#aboutGroup">水都故事</a>
+                                            <a class="icon_index" href="<?php echo base_url('#aboutGroup'); ?>">水都故事</a>
                                         </li>
                                         <li>
                                             <a class="icon_about" href="<?php echo base_url('hotel'); ?>">客房介紹</a>

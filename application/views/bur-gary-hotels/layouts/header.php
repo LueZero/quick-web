@@ -81,32 +81,32 @@
                                 <div class="mobile_header bd-example">
                                     <nav class="navbar navbar-light bg-light fixed-top">
                                         <div class="container-fluid">
-                                            <a class="navbar-brand icon_logo_mobile" href="/"></a>
+                                            <a class="navbar-brand icon_logo_mobile" href="<?php echo base_url(); ?>"></a>
                                         </div>
                                     </nav>
                                 </div>
                                 <div class="navGroup" id="NavGroup">
-                                    <a class="logo_pc" href="index.html">
+                                    <a class="logo_pc" href="<?php echo base_url(); ?>">
                                         <img src="<?php echo PUBLIC_PATH . '/bur-gary-hotel/images/logo_pc.png'; ?>" alt="寶格利時尚旅館" title="寶格利時尚旅館">
                                     </a>
                                     <ul class="login_group">
                                         <li>
-                                            <a class="icon_index" href="index.html#aboutGroup">關於我們</a>
+                                            <a class="icon_index" href="<?php echo base_url('#aboutGroup'); ?>">關於我們</a>
                                         </li>
                                         <li>
-                                            <a class="icon_about" href="hotel.html">精選房型</a>
+                                            <a class="icon_about" href="<?php echo base_url('hotel'); ?>">精選房型</a>
                                         </li>
                                         <li>
-                                            <a class="icon_cart" href="news.html">最新消息</a>
+                                            <a class="icon_cart" href="<?php echo base_url('news'); ?>">最新消息</a>
                                         </li>
                                         <li>
-                                            <a class="icon_index" href="index.html#FacilityGroup">服務設施</a>
+                                            <a class="icon_index" href="<?php echo base_url('#FacilityGroup'); ?>">服務設施</a>
                                         </li>
                                         <li>
                                             <a href="https://www.facebook.com/burgaryhotel/?locale=zh_TW" target="_blank">線上訂房</a>
                                         </li>
                                         <li>
-                                            <a class="icon_about" href="index.html#TrafficGroup">聯絡我們</a>
+                                            <a class="icon_about" href="<?php echo base_url('#TrafficGroup'); ?>">聯絡我們</a>
                                         </li>
                                     </ul>
                                 </div>

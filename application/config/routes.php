@@ -59,14 +59,17 @@ $route['backstage/logout']['get'] = 'Api/Manufacturers/Login/logout';
 
 $route['backstage'] = 'Backstage/index';
 
-if ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw') {
+if ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == 'spaspringresort.com.tw') {
     $route['default_controller'] = 'SpaSpringResort/index';
     $route['hotel'] = 'SpaSpringResort/hotel';
     $route['facility'] = 'SpaSpringResort/facility';
     $route['news'] = 'SpaSpringResort/news';
     $route['news/:num'] = 'SpaSpringResort/newsdetail/$id';
-} elseif ($_SERVER['HTTP_HOST'] == 'www.burgaryhotel.com') {
+} elseif ($_SERVER['HTTP_HOST'] == 'www.burgaryhotel.com' || $_SERVER['HTTP_HOST'] == 'burgaryhotel.com' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
     $route['default_controller'] = 'BurGaryHotel/index';
+    $route['hotel'] = 'BurGaryHotel/hotel';
+    $route['news'] = 'BurGaryHotel/news';
+    $route['news/:num'] = 'BurGaryHotel/newsdetail/$id';
 }else{
     $route['default_controller'] = 'Home';
 }
