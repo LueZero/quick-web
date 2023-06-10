@@ -1,6 +1,6 @@
 <?php
 
-class Manufacturer extends CI_Model
+class Manufacturer_Model extends CI_Model
 {
     private $table = 'manufacturers';
 
@@ -16,12 +16,12 @@ class Manufacturer extends CI_Model
 
     public function delete($id)
     {
-        return $this->db->where("id", $id)->delete($this->table);
+        return $this->db->where('id', $id)->delete($this->table);
     }
 
     public function update($id, $data)
     {
-        return $this->db->where("id", $id)->update($data);
+        return $this->db->where('id', $id)->update($this->table, $data);
     }
 
     public function getAll()

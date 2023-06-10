@@ -5,7 +5,7 @@ class Login extends My_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('manufacturer');
+        $this->load->model('manufacturer_model');
     }
 
     public function login()
@@ -28,7 +28,7 @@ class Login extends My_Controller
 
             $email = $post['email'];
             $password = $post['password'];
-            $manufacturer = $this->manufacturer->getWhere(['email'=>$email])->row();
+            $manufacturer = $this->manufacturer_model->getWhere(['email'=>$email])->row();
             
             if(is_null($manufacturer))
             {
@@ -51,7 +51,7 @@ class Login extends My_Controller
 
             return $this->handling('success.', 200, [
                 'status' => 200,
-                'message' => 'sign in successfully.'
+                'message' => 'login successful.'
             ]);
 
         } catch (\LogicException $e) {
@@ -72,7 +72,7 @@ class Login extends My_Controller
 
             return $this->handling('success.', 200, [
                 'status' => 200,
-                'message' => 'successfully logged out.'
+                'message' => 'successful logout.'
             ]);
 
         } catch (\LogicException $e) {
