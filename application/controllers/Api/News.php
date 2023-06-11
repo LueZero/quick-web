@@ -34,8 +34,8 @@ class News extends My_Controller
     {
         try {
             
-            $post = json_decode($this->security->xss_clean($this->input->raw_input_stream), true);
-
+            $post = json_decode($this->input->raw_input_stream, true);
+          
             if(!isset($post['manufacturer_id']) or !isset($post['title']) or !isset($post['content']))
             {
                 throw new \LogicException('no manufacturer id or title or content entered.');
@@ -77,7 +77,7 @@ class News extends My_Controller
     {
         try {
             
-            $post = json_decode($this->security->xss_clean($this->input->raw_input_stream), true);
+            $post = json_decode($this->input->raw_input_stream, true);
 
             if(!isset($post['title']) or !isset($post['content']))
             {
@@ -96,7 +96,8 @@ class News extends My_Controller
           
             $this->news_model->update($id, $manufacturerId, [
                 'title' => $title,
-                'content' => $content
+                'content' => $content,
+                'updated_at' => date('Y-m-d H:i:s')
             ]);
 
             return $this->handling('success.', 200, [

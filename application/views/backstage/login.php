@@ -72,12 +72,12 @@
         <div class="hpanel">
           <div class="panel-body">
             <div class="form-group">
-              <label class="control-label" for="account">信箱</label>
-              <input type="email" placeholder="請輸入信箱" required="" value="" name="email" id="email" class="form-control">
+              <label class="control-label" for="email">信箱</label>
+              <input type="email" placeholder="請輸入信箱" required name="email" id="email" class="form-control">
             </div>
             <div class="form-group">
               <label class="control-label" for="password">密碼</label>
-              <input type="password" placeholder="請輸入密碼" required="" value="" name="password" id="password" class="form-control">
+              <input type="password" placeholder="請輸入密碼" required name="password" id="password" class="form-control">
             </div>
             <button class="btn btn-success btn-block loginbtn" id="login">登入</button>
           </div>

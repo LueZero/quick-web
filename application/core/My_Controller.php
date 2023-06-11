@@ -2,6 +2,8 @@
 
 class My_Controller extends CI_Controller
 {
+	public $manufacturer;
+
 	public $manufacturerId;
 
 	public $userId;
@@ -12,9 +14,28 @@ class My_Controller extends CI_Controller
 		$this->load->helper('path');
 		$this->load->library('encryption');
 		$this->load->library('session');
+		$this->load->model('manufacturer_model');
+		
 		$this->manufacturerId = $this->session->userdata('manufacturerId');
 		$this->userId = $this->session->userdata('userId');
+
+		$this->manufacturer = $this->manufacturer_model->getWhere(['id' => $this->manufacturerId])->row();
+		$this->load->vars(['manufacturer' => $this->manufacturer]);
+		
 	}
+
+	public function verify()
+    {
+        if(is_null($this->manufacturer))
+        {
+            $message = '<div class="alert alert-danger alert-dismissable my-4">';
+			$message .= '<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>';
+			$message .= '<strong>Warning! </strong>請登入！';
+			$message .= '</div>';
+			$this->session->set_flashdata("message", $message );
+			redirect(base_url("/backstage/login"));
+        }
+    }
 
 	public function getDomain()
 	{

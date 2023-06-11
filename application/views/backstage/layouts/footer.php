@@ -89,7 +89,7 @@
     <script src="<?php echo base_url(); ?>public/ckeditor/ckeditor.js"></script>
 
     <script>
-      var editor = CKEDITOR.replace('textarea', {
+      var editor = CKEDITOR.replace('content', {
         scayt_autoStartup: true,
         customConfig: '<?php echo base_url('ckfinder/config.js') ?>',
         toolbarStartupExpanded: false,

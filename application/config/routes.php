@@ -62,16 +62,18 @@ $route['api/news']['post'] = 'Api/News/add';
 $route['api/news/(:num)/(:num)']['put'] = 'Api/News/update/$1/$2';
 $route['api/news/(:num)/(:num)']['delete'] = 'Api/News/delete/$1/$2';
 
-$route['backstage'] = 'Backstage/news';
-$route['backstage/news/addition'] = 'Backstage/addition';
+$route['backstage'] = 'News/index';
+$route['backstage/news'] = 'News/index';
+$route['backstage/news/addition'] = 'News/add';
+$route['backstage/news/(:num)'] = 'News/edit/$1';
 
-if ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == 'spaspringresort.com.tw') {
+if ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == 'spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
     $route['default_controller'] = 'SpaSpringResort/index';
     $route['hotel'] = 'SpaSpringResort/hotel';
     $route['facility'] = 'SpaSpringResort/facility';
     $route['news'] = 'SpaSpringResort/news';
     $route['news/(:num)'] = 'SpaSpringResort/newsdetail/$1';
-} elseif ($_SERVER['HTTP_HOST'] == 'www.burgaryhotel.com' || $_SERVER['HTTP_HOST'] == 'burgaryhotel.com' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
+} elseif ($_SERVER['HTTP_HOST'] == 'www.burgaryhotel.com' || $_SERVER['HTTP_HOST'] == 'burgaryhotel.com') {
     $route['default_controller'] = 'BurGaryHotel/index';
     $route['hotel'] = 'BurGaryHotel/hotel';
     $route['news'] = 'BurGaryHotel/news';

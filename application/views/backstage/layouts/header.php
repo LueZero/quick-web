@@ -80,7 +80,7 @@
         <div class="left-custom-menu-adp-wrap comment-scrollbar">
             <nav class="sidebar-nav left-sidebar-menu-pro">
                 <ul class="metismenu" id="menu1">
-                    <li class="">
+                    <li class="active">
                         <a class="has-arrow" href="" aria-expanded="false">
                             <span class="educate-icon educate-course icon-wrap"></span> 
                             <span class="mini-click-non">最新消息</span>
