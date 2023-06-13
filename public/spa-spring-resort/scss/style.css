@@ -1450,9 +1450,24 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #aboutGroup .txt_content .pic_aboutHotel {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+    background: url("../images/pic_aboutHotel_tablet.jpg") no-repeat center;
+    background-size: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding-bottom: 130.133%;
+    display: flex;
+    order: 1;
+  }
+}
 #aboutGroup .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   height: auto;
   background: #fefefe;
   box-shadow: 1px 1px 10px #c9c9c9;
@@ -1488,9 +1503,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #aboutGroup .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #aboutGroup .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 36px;
+  font-size: 31px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -1507,8 +1527,8 @@ section {
 #aboutGroup .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -1546,7 +1566,7 @@ section {
   max-width: 1920px;
   height: auto;
   background-color: #eae9e9;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   #introGroup {
@@ -1658,9 +1678,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #introGroup .txt_content .pic_aboutHotel {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #introGroup .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   height: auto;
   background: #fefefe;
   box-shadow: 1px 1px 10px #c9c9c9;
@@ -1696,9 +1724,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #introGroup .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #introGroup .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 36px;
+  font-size: 31px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -1715,8 +1748,8 @@ section {
 #introGroup .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -1957,9 +1990,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #HotelGroup .hotel_group .txt_content .pic_hotel {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #HotelGroup .hotel_group .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   height: auto;
   background: #fefefe;
   box-shadow: 1px 1px 10px #c9c9c9;
@@ -1994,9 +2035,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #HotelGroup .hotel_group .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #HotelGroup .hotel_group .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -2013,8 +2059,8 @@ section {
 #HotelGroup .hotel_group .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -2639,9 +2685,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup .txt_content .pic_facility {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   height: auto;
   min-height: 400px;
   background: #fefefe;
@@ -2678,6 +2732,11 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #FacilityGroup .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
   font-size: 31px;
@@ -2697,8 +2756,8 @@ section {
 #FacilityGroup .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -2921,9 +2980,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page .txt_content .pic_facility_02 {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   min-height: 450px;
   height: auto;
   background: #fefefe;
@@ -2960,9 +3027,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #FacilityGroup_page .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 29px;
+  font-size: 24px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -2979,8 +3051,8 @@ section {
 #FacilityGroup_page .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -3159,6 +3231,14 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_02 .txt_content .pic_facility {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page_02 .txt_content .pic_facility_02 {
   max-width: 785px;
   max-height: 588px;
@@ -3196,9 +3276,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_02 .txt_content .pic_facility_02 {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page_02 .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   min-height: 450px;
   height: auto;
   background: #fefefe;
@@ -3235,9 +3323,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_02 .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #FacilityGroup_page_02 .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 29px;
+  font-size: 24px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -3254,8 +3347,8 @@ section {
 #FacilityGroup_page_02 .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -3437,6 +3530,14 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_03 .txt_content .pic_facility {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page_03 .txt_content .pic_facility_02 {
   max-width: 785px;
   max-height: 588px;
@@ -3474,9 +3575,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_03 .txt_content .pic_facility_02 {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page_03 .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   min-height: 450px;
   height: auto;
   background: #fefefe;
@@ -3513,9 +3622,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_03 .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #FacilityGroup_page_03 .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 29px;
+  font-size: 22px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -3532,8 +3646,8 @@ section {
 #FacilityGroup_page_03 .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 195px;
+  height: 62px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -3712,6 +3826,14 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_04 .txt_content .pic_facility {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page_04 .txt_content .pic_facility_02 {
   max-width: 785px;
   max-height: 588px;
@@ -3749,9 +3871,17 @@ section {
     order: 1;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_04 .txt_content .pic_facility_02 {
+    max-width: 685px;
+    max-height: 488px;
+    width: 685px;
+    height: 488px;
+  }
+}
 #FacilityGroup_page_04 .txt_content .sub_txt_content {
   position: absolute;
-  width: 700px;
+  width: 600px;
   min-height: 450px;
   height: auto;
   background: #fefefe;
@@ -3788,9 +3918,14 @@ section {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #FacilityGroup_page_04 .txt_content .sub_txt_content {
+    margin-left: 40%;
+  }
+}
 #FacilityGroup_page_04 .txt_content .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 29px;
+  font-size: 24px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;
@@ -3807,8 +3942,8 @@ section {
 #FacilityGroup_page_04 .txt_content .sub_txt_content .sub_txt_title::after {
   display: inline-block;
   content: "";
-  width: 228px;
-  height: 75px;
+  width: 200px;
+  height: 66px;
   background: url("../images/sub_txt_title_after.png") no-repeat center;
   background-size: cover;
   margin-top: 30px;
@@ -4188,7 +4323,7 @@ section {
 }
 .sub_group .sub_txt_content .sub_txt_title {
   width: 100%;
-  font-size: 36px;
+  font-size: 31px;
   font-weight: bold;
   color: #85786b;
   line-height: 2;

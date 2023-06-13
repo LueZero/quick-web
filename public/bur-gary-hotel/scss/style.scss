@@ -1029,6 +1029,12 @@ $arrays:"";
                 display: flex;
                 order: 1;
             }
+            @include desktop{
+                max-width: 685px;
+                max-height: 488px;
+                width: 685px;
+                height: 488px;
+            }
         }
         .sub_txt_content{
             position: absolute;
@@ -1063,6 +1069,9 @@ $arrays:"";
                 margin: 0 auto;
                 align-items: flex-start;
                 padding-left: 20px;
+            }
+            @include desktop{
+                margin-left: 40%;
             }
             .sub_txt_title{
                 width: 257px;
@@ -1275,6 +1284,12 @@ $arrays:"";
                     display: flex;
                     order: 1;
                 }
+                @include desktop{
+                    max-width: 685px;
+                    max-height: 488px;
+                    width: 685px;
+                    height: 488px;
+                }
             }
             .sub_txt_content{
                 position: absolute;
@@ -1309,6 +1324,9 @@ $arrays:"";
                     margin: 0 auto;
                     align-items: flex-start;
                     padding-left: 20px;
+                }               
+                @include desktop{
+                    margin-left: 40%;
                 }
                 .sub_txt_title{
                     width: 257px;
@@ -1839,6 +1857,12 @@ $arrays:"";
                 display: flex;
                 order: 1;
             }
+            @include desktop{
+                max-width: 685px;
+                max-height: 488px;
+                width: 685px;
+                height: 488px;
+            }
         }
         .sub_txt_content{
             position: absolute;
@@ -1873,6 +1897,9 @@ $arrays:"";
                 margin: 0 auto;
                 align-items: flex-start;
                 padding-left: 20px;
+            }
+            @include desktop{
+                margin-left: 40%;
             }
             .sub_txt_title{
                 width: 257px;

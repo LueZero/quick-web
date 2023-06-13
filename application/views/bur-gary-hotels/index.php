@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="pic_hotel"></div>
                                 <div class="btn_group">
-                                    <a href="hotel.html">看更多</a>
+                                    <a href="<?php echo base_url('hotel'); ?>">看更多</a>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                                                 </div>
                                             </div>
                                             <div class="btn_more_group">
-                                                <a class="btn_news_list_more" href="news.html">看更多</a>
+                                                <a class="btn_news_list_more" href="<?php echo base_url('news'); ?>">看更多</a>
                                             </div>
                                         </div>
                                     </div>
@@ -147,7 +147,7 @@
                                     </div> -->
                                 </div>
                                 <div class="btn_group">
-                                    <a href="news.html">看更多</a>
+                                    <a href="<?php echo base_url('news'); ?>">看更多</a>
                                 </div>
                             </div>
                         </div>
