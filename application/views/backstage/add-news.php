@@ -10,8 +10,12 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="caption pro-sl-hd">
-                                <label class="control-label" for="title">信箱</label>
-                                <input type="email" placeholder="請輸入信箱" required name="title" id="title" class="form-control">
+                                <label class="control-label" for="title">標題</label>
+                                <input type="email" placeholder="請輸入標題" required name="title" id="title" class="form-control">
+                                <br>
+                                <label class="control-label" for="header-imag">標題圖片</label>
+                                <input type="button" value="開啟圖片區" onclick="browseServer();" />
+                                <input type="text" size="48" name="header-image" id="header-image" />
                                 <br>
                                 <label class="control-label" for="content">內容</label>
                                 <textarea name="content" id="content" required></textarea>
@@ -30,8 +34,9 @@
 <script>
     $('#add-news').click(function() {
         let title = $('#title').val();
-        let content= CKEDITOR.instances['content'].getData();
+        let content = CKEDITOR.instances['content'].getData();
         let manufacturerId = $('#manufacturer-id').val();
+        let headerImage = $('#header-image').val();
         let data = {};
 
         if (title == '') {
@@ -47,6 +52,7 @@
         data['manufacturer_id'] = manufacturerId;
         data['title'] = title;
         data['content'] = content;
+        data['header_image'] = headerImage;
 
         $.ajax({
             method: 'POST',
@@ -67,4 +73,20 @@
             }
         });
     });
+
+    function browseServer() {
+        CKFinder.config({
+            chooseFiles: true,
+            onInit: function(finder) {
+                finder.on('files:choose', function(evt) {
+                    var file = evt.data.files.first();
+                    document.getElementById('header-image').value = file.getUrl();
+                });
+                finder.on('file:choose:resizedImage', function(evt) {
+                    document.getElementById('header-image').value = evt.data.resizedUrl;
+                });
+            }
+        });
+        CKFinder.popup();
+    }
 </script>

@@ -51,11 +51,13 @@ class News extends My_Controller
             $manufacturerId = $post['manufacturer_id'];
             $title = $post['title'];
             $content = $post['content'];
+            $headerImage = $post['header_image'];
           
             $this->news_model->add([
                 'manufacturer_id' => $manufacturerId,
                 'title' => $title,
-                'content' => $content
+                'content' => $content,
+                'header_image' => $headerImage
             ]);
 
             return $this->handling('success.', 200, [
@@ -93,10 +95,12 @@ class News extends My_Controller
 
             $title = $post['title'];
             $content = $post['content'];
+            $headerImage = $post['header_image'];
           
             $this->news_model->update($id, $manufacturerId, [
                 'title' => $title,
                 'content' => $content,
+                'header_image' => $headerImage,
                 'updated_at' => date('Y-m-d H:i:s')
             ]);
 

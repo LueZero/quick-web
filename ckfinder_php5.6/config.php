@@ -66,12 +66,17 @@ $config['images'] = array(
 /*=================================== Backends ========================================*/
 // http://docs.cksource.com/ckfinder3-php/configuration.html#configuration_options_backends
 if ($_SERVER['HTTP_HOST'] == "34.80.16.188") {
-    $base_url = '/quick-web/ckfinder/userfiles/';
+    $base_url = '/quick-web/ckfinder/tests/';
 }else if ($_SERVER['HTTP_HOST'] == "127.0.0.1" || $_SERVER['HTTP_HOST'] == "localhost") {
-    $base_url = '/quick-web/ckfinder/userfiles/';
+    $base_url = '/quick-web/ckfinder/tests/';
+}elseif ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == 'spaspringresort.com.tw') {
+    $base_url = '/ckfinder/spaspringresort/';
+}elseif ($_SERVER['HTTP_HOST'] == 'www.burgaryhotel.com' || $_SERVER['HTTP_HOST'] == 'burgaryhotel.com') {
+    $base_url = '/ckfinder/burgaryhotel/';
 } else {
-    $base_url = '/ckfinder/userfiles/';
+    $base_url = '/ckfinder/tests/';
 }
+
 $config['backends'][] = array(
     'name'         => 'default',
     'adapter'      => 'local',

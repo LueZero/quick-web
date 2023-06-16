@@ -49,10 +49,13 @@ $config['privateDir'] = array(
 /*============================ Images and Thumbnails ==================================*/
 // https://ckeditor.com/docs/ckfinder/ckfinder3-php/configuration.html#configuration_options_images
 
+// 'maxWidth' => 1600,
+// 'maxHeight' => 1200,
+// 'quality' => 80
 $config['images'] = array(
-    'maxWidth'  => 1600,
-    'maxHeight' => 1200,
-    'quality'   => 80,
+    'maxWidth'  => 20000,
+    'maxHeight' => 20000,
+    'quality'   => 10000,
     'sizes' => array(
         'small'  => array('width' => 480, 'height' => 320, 'quality' => 80),
         'medium' => array('width' => 600, 'height' => 480, 'quality' => 80),
@@ -63,12 +66,17 @@ $config['images'] = array(
 /*=================================== Backends ========================================*/
 // https://ckeditor.com/docs/ckfinder/ckfinder3-php/configuration.html#configuration_options_backends
 if ($_SERVER['HTTP_HOST'] == "34.80.16.188") {
-    $base_url = '/quick-web/ckfinder/userfiles/';
+    $base_url = '/quick-web/ckfinder/tests/';
 }else if ($_SERVER['HTTP_HOST'] == "127.0.0.1" || $_SERVER['HTTP_HOST'] == "localhost") {
-    $base_url = '/quick-web/ckfinder/userfiles/';
+    $base_url = '/quick-web/ckfinder/tests/';
+}elseif ($_SERVER['HTTP_HOST'] == 'www.spaspringresort.com.tw' || $_SERVER['HTTP_HOST'] == 'spaspringresort.com.tw') {
+    $base_url = '/ckfinder/spaspringresort/';
+}elseif ($_SERVER['HTTP_HOST'] == 'www.burgaryhotel.com' || $_SERVER['HTTP_HOST'] == 'burgaryhotel.com') {
+    $base_url = '/ckfinder/burgaryhotel/';
 } else {
-    $base_url = '/ckfinder/userfiles/';
+    $base_url = '/ckfinder/tests/';
 }
+
 $config['backends'][] = array(
     'name'         => 'default',
     'adapter'      => 'local',
