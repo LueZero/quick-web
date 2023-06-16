@@ -25,7 +25,7 @@
                             <div class="txt_content">
                                 <div class="news_content_group">
                                     <div class="newsdetail_content_focus_group">
-                                        <div class="news_content_l"></div>
+                                        <div class="news_content_l" style="background:url('<?php echo $news->header_image; ?>')"></div>
                                         <div class="news_content_r">
                                             <!-- <div class="news_txt_content">
                                                 <div class="news_txt_tit">限定優惠</div>

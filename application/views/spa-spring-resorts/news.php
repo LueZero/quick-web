@@ -17,7 +17,7 @@
                                 <div class="news_content_group">
                                     <?php foreach ($news  as $key => $value) { ?>
                                         <div class="news_content_focus_group">
-                                            <div class="news_content_l"></div>
+                                            <div class="news_content_l" style="background:url('<?php echo $value->header_image; ?>')"></div>
                                             <div class="news_content_r">
                                                 <!-- <div class="news_txt_content">
                                                     <div class="news_txt_tit">專案優惠期限</div>
