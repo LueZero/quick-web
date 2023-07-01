@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>快網-後台管理</title>
+<title>後台管理</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- favicon
@@ -73,7 +73,7 @@
         <div class="sidebar-header">
             <a href="<?php echo base_url("backstage"); ?>">
                 <!-- <img class="main-logo" src="<?php echo base_url("public/kiaalap-master/img/logo/logo.png"); ?>" alt="" /> -->
-                <h1 style="font-family:Microsoft YaHei">快網</h1>
+                <h1 style="font-family:Microsoft YaHei">後台管理</h1>
             </a>
             <!-- <strong><a href="index.html"><img src="<?php echo base_url("public/kiaalap-master/img/logo/logosn.png"); ?>" alt="" /></a></strong> -->
         </div>

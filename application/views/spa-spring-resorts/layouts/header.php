@@ -31,7 +31,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        @945vofqt
+                       <a href="https://line.me/ti/p/xZiYMUva8V">@945vofqt</a>
                     </div>
                     <div class="modal-footer">
                         <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button> -->

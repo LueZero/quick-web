@@ -7,7 +7,7 @@
                     <li><a href="javascript:;">台北市北投區光明路283號</a></li>
                     <li><a href="tel:+886-7-5612346">Tel ：+886 2 2897 9060</a></li>
                     <li><a href="fax:+886-7-5338007">Fax：+886 2 2897 9065</a></li>
-                    <li><a href="LINE ID:@945vofqt">LINE ID：@945vofqt</a></li>
+                    <li><a href="https://line.me/ti/p/xZiYMUva8V">LINE ID：@spaspring</a></li>
                 </ul>
             </div>
             <div class="social_group">

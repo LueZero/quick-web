@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>快網-後台登入</title>
+  <title>後台登入</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- favicon
@@ -65,7 +65,7 @@
     <div class="error-page-int">
       <div class="text-center m-b-md custom-login">
         <h1 class="JhengHei" style="color:red;"><?php echo (empty($message) == true ? "" : $message); ?></h1>
-        <h3 class="JhengHei">快網</h3>
+        <h3 class="JhengHei"></h3>
         <p class="JhengHei">您方便快速管理網頁小幫手</p>
       </div>
       <div class="content-error">
