@@ -951,7 +951,7 @@ $arrays:"";
     height: auto;
     background: #f6f6f6;
     // height: 900px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     @include mobile{
         max-width: 100%;
         height: auto;
@@ -1000,10 +1000,14 @@ $arrays:"";
             max-width: 1200px;
         }
         .pic_aboutHotel{
-            max-width: 785px;
-            max-height: 588px;
-            width: 785px;
-            height: 588px;
+            // max-width: 785px;
+            // max-height: 588px;
+            // width: 785px;
+            // height: 588px;
+            max-width: 685px;
+            max-height: 488px;
+            width: 685px;
+            height: 488px;
             background: url("../images/pic_aboutHotel.jpg") no-repeat center;
             background-size: cover;
             z-index: 9;
@@ -1038,14 +1042,14 @@ $arrays:"";
         }
         .sub_txt_content{
             position: absolute;
-            width: 700px;
+            width: 600px;
             height: auto;
             // background: rgba($color: #ffffff, $alpha: 0.85);
             background: url("../images/sub_txt_content_bg.jpg") repeat center;
             box-shadow: 1px 1px 10px #c9c9c9;
-            margin-left: 50%;
-            // padding: 20px 40px;
-            padding-left: 18%;
+            margin-left: 45%;
+            padding-left: 15%;
+            margin-top: 30px;
             padding-right: 30px;
             padding-bottom: 30px;
             @include mobile{
@@ -1127,7 +1131,7 @@ $arrays:"";
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     @include mobile{
         max-width: 100%;
         // background: url("../images/ServiceGroup_mobile_bg.jpg") no-repeat center;
@@ -1255,10 +1259,14 @@ $arrays:"";
                 max-width: 1200px;
             }
             .pic_hotel{
-                max-width: 785px;
-                max-height: 588px;
-                width: 785px;
-                height: 588px;
+                // max-width: 785px;
+                // max-height: 588px;
+                // width: 785px;
+                // height: 588px;
+                max-width: 685px;
+                max-height: 488px;
+                width: 685px;
+                height: 488px;
                 background: url("../images/pic_hotel.jpg") no-repeat center;
                 background-size: cover;
                 z-index: 9;
@@ -1293,14 +1301,13 @@ $arrays:"";
             }
             .sub_txt_content{
                 position: absolute;
-                width: 700px;
+                width: 600px;
                 height: auto;
                 // background: rgba($color: #ffffff, $alpha: 0.85);
                 background: url("../images/sub_txt_content_bg.jpg") repeat center;
                 box-shadow: 1px 1px 10px #c9c9c9;
-                margin-left: 50%;
-                // padding: 20px 40px;
-                padding-left: 18%;
+                margin-left: 45%;
+                padding-left: 15%;
                 padding-right: 30px;
                 padding-bottom: 30px;
                 @include mobile{
@@ -1828,10 +1835,14 @@ $arrays:"";
             max-width: 1200px;
         }
         .pic_facility{
-            max-width: 785px;
-            max-height: 588px;
-            width: 785px;
-            height: 588px;
+            // max-width: 785px;
+            // max-height: 588px;
+            // width: 785px;
+            // height: 588px;
+            max-width: 685px;
+            max-height: 488px;
+            width: 685px;
+            height: 488px;
             background: url("../images/pic_facility.jpg") no-repeat center;
             background-size: cover;
             z-index: 9;
@@ -1866,14 +1877,14 @@ $arrays:"";
         }
         .sub_txt_content{
             position: absolute;
-            width: 700px;
+            width: 600px;
             height: auto;
             // background: rgba($color: #ffffff, $alpha: 0.85);
             background: url("../images/sub_txt_content_bg.jpg") repeat center;
             box-shadow: 1px 1px 10px #c9c9c9;
-            margin-left: 50%;
-            // padding: 20px 40px;
-            padding-left: 18%;
+            margin-left: 45%;
+            padding-left: 15%;
+            margin-top: 30px;
             padding-right: 30px;
             padding-bottom: 30px;
             @include mobile{
