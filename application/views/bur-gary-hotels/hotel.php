@@ -145,7 +145,7 @@
                                                     <div class="sub_txt_title_after"></div>
                                                     <div class="sub_txt_contents">
                                                         <ul>
-                                                            <li>房型：一大床房型【平日$3680、假日$4680】 / 兩小床【平日$3980、假日$480】</li>
+                                                            <li>房型：一大床房型【平日$3680、假日$4680】 / 兩小床【平日$3980、假日$4980】</li>
                                                             <br>
                                                             <li>房間設備</li>
                                                             <li>＊ 免費wifi</li>
